@@ -1,0 +1,156 @@
+
+body {
+  margin: 10px calc(50% - 450px);
+}
+
+header {
+  display: block;
+  margin: 1.5em calc(50% - 450px);
+}
+
+header a img {
+  height: 2em;
+  width: 2em;
+  text-decoration: none;
+}
+header a {
+  text-decoration: none;
+}
+
+h1 {
+  line-height: auto;
+  margin: 0px;
+  font-size: 3em
+}
+h4 {
+  line-height: auto;
+  margin-top: 0px
+}
+
+hr {
+  height: 10px;
+  background-color: gray;
+  opacity: .3;
+  padding: .5em 0 1em 0;
+}
+
+p {
+  font-family: 'Arimo', 'sans-serif';
+  text-indent: 20px;
+}
+ul {
+  list-style-type: none;
+  float: left;
+  font-family: 'Arimo', 'sans-serif';
+}
+section {
+  width: 900px;
+}
+
+li button {
+  font-size: 1.1em;
+  font-family: 'Arimo', 'sans-serif';
+  background: #C0C0C0;
+  opacity: .7;
+}
+.clearfix {
+  zoom: 1;
+}
+.clearfix:before, .clearfix:after {
+  content: "#";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+.clearfix:after {
+  clear: both;
+}
+
+.check-list {
+  display: inline-block;
+  background-image: url(https://github.com/maxbrockman453/CodeChallenge/blob/master/Screen%20Shot%202014-04-24%20at%2010.37.27%20PM.png?raw=true);
+}
+
+.check-list li {
+  font-size: 1.1em;
+}
+
+/*I would want to call a function with Jquery where when box was checked. .checkbox would engage and line through the text. Hopefully dale will be able to teach me this!!
+.checkbox {
+  text-decoration: line-through;
+}*/
+
+.date_print-button {
+  display: block;
+}
+
+.date_print-button li {
+  list-style-type: none;
+  display: block;
+}
+
+.date {
+  float: left;
+  height: 1em;
+  padding-top: 0px;
+}
+
+.print-button {
+  float: right;
+  margin: auto;
+  font-size: 1.1em;
+
+
+}
+.social_buttons {
+  float: right;
+}
+
+.logo {
+  float: left;
+}
+
+.pintrest {
+  padding-right: .25em;
+}
+
+.selfie img {
+  height: 10em;
+  border-radius: 100%;
+  background: url("https://github.com/maxbrockman453/CodeChallenge/blob/master/Screen%20Shot%202014-04-25%20at%2012.55.25%20AM.png?raw=true") no-repeat;
+
+}
+
+.bottom {
+  display: inline-block;
+}
+
+footer li {
+  float: left;
+}
+
+footer b {
+  font-size: 3em;
+  font-family: 'Arimo', 'sans-serif';
+
+}
+footer p {
+  width: auto;
+  position: relative;
+}
+
+.share {
+  font-size: 1em;
+  position: absolute;
+  float: left;
+  height: 5em;
+  width: auto;
+  background-color: #CC3333;
+  color: white;
+  margin: 2em 0 0 10em;
+}
+
+.share a {
+  text-decoration: none;
+  color: white;
+}
