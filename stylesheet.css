@@ -11,7 +11,7 @@ p {
   width: 20em;
   height: 10em;
   background-color: #B8B8B8;
-  margin: calc(50% - 10em) 1em;
+  margin: 1em calc(50% - 10em);
   border-radius: 10px;
 
 }
