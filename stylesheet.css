@@ -3,8 +3,6 @@ h1 {
 }
 p {
   text-align: center;
-  border: .1em solid black;
-  border-radius: .2em;
 }
 
 .center-me {
@@ -12,6 +10,7 @@ p {
   height: 10em;
   background-color: #E8E8E8;
   margin: 1em calc(50% - 10em);
-  border-radius: 10px;
+  border: .1em solid black;
+  border-radius: .2em;
 
 }
