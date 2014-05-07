@@ -1,16 +1,9 @@
-h1 {
-  text-align: center;
+body {
+  font-family: 'Droid Sans Mono', serif;
+  margin: 2em calc(50% - 25em);
 }
-p {
-  text-align: center;
-}
-
-.center-me {
-  width: 20em;
-  height: 10em;
-  background-color: #E8E8E8;
-  margin: 1em calc(50% - 10em);
-  border: .1em solid black;
-  border-radius: .2em;
-
+.post {
+  font-family: 'Droid Sans Mono', serif;
+  width: 50em;
+  margin: 2em calc(50% - 25em);
 }
