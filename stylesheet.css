@@ -14,3 +14,13 @@ nav {
   margin: 2em calc(50% - 25em);
 }
 
+@media only screen and (max-width: 700px) {
+    body {
+      margin: auto;
+    }
+    .post {
+      width: 100%;
+      margin: 2em auto;
+
+    }
+}
