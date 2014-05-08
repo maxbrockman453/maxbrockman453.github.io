@@ -8,6 +8,7 @@ nav {
   background-color: white;
 }
 
+
 .post {
   font-family: 'Droid Sans Mono', serif;
   width: 50em;
@@ -22,5 +23,8 @@ nav {
       width: 100%;
       margin: 2em auto;
 
+    }
+    section img {
+      width: 100%;
     }
 }
