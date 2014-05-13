@@ -3,9 +3,9 @@ CACHE MANIFEST
 
 # Explicitly cached 'master entries'.
 CACHE:
-index.html
-stylesheet.css
-/images
+./index.html
+./stylesheet.css
+./images
 
 
 # Resources that require the user to be online.
