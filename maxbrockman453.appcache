@@ -1,8 +1,8 @@
 CACHE MANIFEST
-# 2014-5-13:v2
-
-# Explicitly cached 'master entries'.
-CACHE:
-./index.html
-./stylesheet.css
-./images
+index.html
+stylesheet.css
+images/Github-social-icon.png
+images/Screenshot-2014-05-07-10.23.36.png
+images/instagram-social-icon.png
+images/linked-in-social-icon.png
+images/twitter-social-icon.png
