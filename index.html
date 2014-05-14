@@ -34,6 +34,18 @@
                     <p><strong></strong></p>
                     <p></p>
                 <section class="post">
+                    <h1>Blog post #7.1: 4/14/2014</h1>
+                    <p><strong>How did I do that?</strong></p>
+                    <p>So, in order to call the map you have to use javascript.</p>
+                    <figure>
+                        <img src="http://i.imgur.com/lE4wjeE.png" title="Javascript used for Google Maps"/></a>
+                    </figure>
+                    <p>A series of things are happening in this example. First you create a variable called mapwrapper. With that var we, on the 'document' create a 'div' called mapwrapper. We also subsequently create a css class called mapwrapper so that we can use the stylesheet to adjust the layout and look of the div.</p>
+                    <figure>
+                        <img src="http://i.imgur.com/6goawUD.png" title="CSS stylesheet"/></a>
+                    </figure>
+                    <p> Next, we do the exact same thing that we did with mapwrapper, but this time we're creating a div called mapcanvas. Now map canvas is the actual functioning map that calls the Google code and generates the map. Map wrapper is a container that we plan to put around mapcanvas in order to make it responsive to our CSS! So far so good? Good. Next we call, in the 'document', and query to find a selector called 'map'. This is the first time we're actually assigning anything to an existing html element. If you inspect element you'll see the article with a class of 'map'. So what happens with appendChild is that we are inserting the div of mapwrapper we created into the last child spot of the article. We run this again but instead insert the id mapcanvas inside the mapwrapper class. OMG it's so simple!</p>
+                <section class="post">
                     <h1>Blog post #7: 4/14/2014</h1>
                     <p><strong>I'm a Map I'm a map</strong></p>
                     <p>We've learned to use javascript to call on google all powerful map services. The google API is a deep deep hole that we can go down, and I'm just scratching the surface with this. you'll also notice hopefully that I've made this responsive to screen size. On your browser get in the habit of grabbing the screen edge with your mouse and drag it back and forth to see if elements are adjusting size.</p>
