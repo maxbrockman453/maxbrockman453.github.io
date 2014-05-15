@@ -18,10 +18,14 @@
             <header>
                 <h1>Max Brockman's Code Fellows Blog</h1>
                 <nav>
-                    <a href="https://www.facebook.com/maxbrockman453" target="_blank"><img src="http://i.imgur.com/6jGbftu.png" alt="facebook" title="facebook"/></a>
-                    <a href="https://www.twitter.com/maxbrockman453" target="_blank"><img src="http://i.imgur.com/sMjyaaP.png" alt="twitter" title="twitter"/></a>
-                    <a href="http://www.github.com/maxbrockman453" target="_blank"><img src="http://i.imgur.com/Fh7cc5N.png" alt="github" title="github"/></a>
-                    <a href="http://www.linkedin.com/pub/maxwell-brockman/34/b53/aaa/" target="_blank"><img src="http://i.imgur.com/v9L4YXo.png" alt="linkedIn" title="linkedIn"/></a>
+                  <a href="https://www.facebook.com/maxbrockman453" target="_blank"><img src="http://i.imgur.com/6jGbftu.png" alt="facebook" title="facebook"/></a>
+                  <a href="https://www.twitter.com/maxbrockman453" target="_blank"><img src="http://i.imgur.com/sMjyaaP.png" alt="twitter" title="twitter"/></a>
+                  <a href="http://www.github.com/maxbrockman453" target="_blank"><img src="http://i.imgur.com/Fh7cc5N.png" alt="github" title="github"/></a>
+                  <a href="http://www.linkedin.com/pub/maxwell-brockman/34/b53/aaa/" target="_blank"><img src="http://i.imgur.com/v9L4YXo.png" alt="linkedIn" title="linkedIn"/></a>
+                  <a href="http://www.instagram.com/maxbrockman453" target="_blank"><img src="http://i.imgur.com/XjFzWBs.png" alt="instagram" title="instagram"/></a>
+                  <a href="http://www.coderwall.com/maxbrockman453" target="_blank"><img src="http://i.imgur.com/RqLQt82.png?1" alt="coderwall" title="coderwall"/></a>
+                  <a href="http://maxbrockman.roughdraft.io" target="_blank"><img src="http://i.imgur.com/cPBWhBD.png?1" alt="roughdraft.io" title="roughdraft.io"/></a>
+                  <a href="http://www.youtube.com/maxbrockman" target="_blank"><img src="http://i.imgur.com/xaavLag.png" alt="youtube" title="youtube"/></a>
                 </nav>
             </header>
             <article>
@@ -29,10 +33,12 @@
                     <h1></h1>
                     <p><strong></strong></p>
                     <p></p>
+                </section>
                 <section class="post">
                     <h1></h1>
                     <p><strong></strong></p>
                     <p></p>
+                </section>
                 <section class="post">
                     <h1>Blog post #7.1: 4/14/2014</h1>
                     <p><strong>How did I do that?</strong></p>
@@ -45,6 +51,7 @@
                         <img src="http://i.imgur.com/6goawUD.png" title="CSS stylesheet"/></a>
                     </figure>
                     <p> Next, we do the exact same thing that we did with mapwrapper, but this time we're creating a div called mapcanvas. Now map canvas is the actual functioning map that calls the Google code and generates the map. Map wrapper is a container that we plan to put around mapcanvas in order to make it responsive to our CSS! So far so good? Good. Next we call, in the 'document', and query to find a selector called 'map'. This is the first time we're actually assigning anything to an existing html element. If you inspect element you'll see the article with a class of 'map'. So what happens with appendChild is that we are inserting the div of mapwrapper we created into the last child spot of the article. We run this again but instead insert the id mapcanvas inside the mapwrapper class. OMG it's so simple!</p>
+                </section>
                 <section class="post">
                     <h1>Blog post #7: 4/14/2014</h1>
                     <p><strong>I'm a Map I'm a map</strong></p>
@@ -52,6 +59,7 @@
                     <article class="map">
                         <p>Searching the Internet to find you: <span id="geostatus">checking...</span></p>
                     </article>
+                </section>
                 <section class="post">
                     <h1>Blog post #6: 4/12/2014</h1>
                     <p><strong>Super Useful links for Front End Web Development!</strong></p>
@@ -83,7 +91,6 @@
                             <h1><strong>Web Design/Social</strong></h1>
                         </ul>
                     </ul>
-
                 </section>
                 <section class="post">
                     <h1>Blog post #5: 4/12/2014</h1>
@@ -136,12 +143,12 @@
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','50837021-1');ga('send','pageview');
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+            ga('create', 'UA-50837021-1', 'maxbrockman453.github.io');
+            ga('send', 'pageview');
         </script>
     </body>
 </html>
