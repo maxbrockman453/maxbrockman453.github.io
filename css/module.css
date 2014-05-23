@@ -75,10 +75,8 @@
   color: #435c6e;
 }
 
-/*To be allocated appropriately*/
-img {
-  width: 100%;
-}
+/*----------------------------------------Flex Container Layout--------------------------------------------*/
+
 
 .flex-container {
     display:flex;
@@ -134,27 +132,99 @@ img {
   background-color: black;
   height: 8em;
   color: white;
-
-
 }
 
+/*-----------------------------------------Responsive Grid System ----------------------------------------------*/
+
+/*  SECTIONS  */
+.section {
+  clear: both;
+  padding: 0px;
+  margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+  display: block;
+  float:left;
+}
+
+.col:first-child { margin-left: 0; }
+
+
+/*  GROUPING  */
+.group:before,
+.group:after {
+  content:"";
+  display:table;
+}
+.group:after {
+  clear:both;
+}
+
+/*  GRID OF Four  */
+
+.span_3_of_3 {
+    width: 33%;
+}
+
+.span_2_of_3 {
+    width: 33%;
+}
+
+.span_1_of_3 {
+    width: 33%;
+}
+
+
+/*-------------------------------Media Query's for all-------------------------------*/
+
 /* Small screens */
-@media all and (min-width: 500px) {
+@media all and (min-width: 400px) {
 
   .flex-container {
-    /* On small screens, we are no longer using row direction but column */
+    /* On bigger screens, we are no longer using column direction but row */
     flex-direction: row;
   }
   .flex-width2-3 {
     width: 50%;
   }
+  /*Responsive grid for bigger than 500px*/
+  .span_3_of_3 {
+    width: 100%;
+  }
+  .span_2_of_3 {
+    width: 100%;
+  }
+  .span_1_of_3 {
+    width: 100%;
+  }
 }
 
-@media all and (min-width: 800px) {
-  img {
-    height: 20em;
-    width: auto;
+@media all and (min-width: 601px) {
+  .flex-container {
+    /* On bigger screens, we are no longer using column direction but row */
+    flex-direction: row;
   }
+  .flex-width2-3 {
+    width: 50%;
+  }
+  /*Responsive grid for bigger than 500px*/
+  .span_3_of_3 {
+    width: 100%;
+  }
+  .span_2_of_3 {
+    width: 66.1%;
+  }
+  .span_1_of_3 {
+    width: 32.2%;
+  }
+
+}
+
+
+@media all and (min-width: 801px) {
+
   .flex-container {
     justify-content: space-around;
   }
@@ -163,6 +233,16 @@ img {
   }
   .flex-width2-3 {
     width: 50%;
+  }
+
+  .span_3_of_3 {
+    width: 33%;
+  }
+  .span_2_of_3 {
+      width: 33%;
+  }
+  .span_1_of_3 {
+      width: 33%;
   }
 }
 

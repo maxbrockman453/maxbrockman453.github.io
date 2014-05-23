@@ -1,20 +1,3 @@
-/*--------------working with nubbins--------------*/
-
-/*.nubbing {
-  width: 0;
-  height: 0;
-  display: inline-block;
-  border-right: 2em solid transparent;
-  border-left: 2em solid transparent;
-  border-bottom: 2em solid #435C6E;
-  margin-bottom: -.2em;
-}
-
-.right {
-  margin-left: 10em;
-}
-*/
-
 button {
   transition: background .2s, color .2s;
 }
