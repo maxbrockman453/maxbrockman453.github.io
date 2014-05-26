@@ -1,8 +1,8 @@
 body {
   font-family: 'Droid Sans Mono', serif;
-  margin: 2em calc(50% - 25em);
   display: -webkit-flex;
   display: flex;
+  justify-content: space-around;
 }
 
 nav {
