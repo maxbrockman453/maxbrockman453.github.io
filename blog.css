@@ -4,6 +4,9 @@ body {
   display: flex;
   justify-content: space-around;
 }
+ul {
+  width: 100%;
+}
 
 nav {
   line-height: 3em;
@@ -52,10 +55,12 @@ footer a {
   border-radius: .3em;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 400px) {
     body {
-      margin: auto;
-      padding: .4em;
+      padding: 0px .4em;
+      display: -webkit-flex;
+      display: flex;
+      justify-content: space-around;
     }
     .post {
       width: 100%;
@@ -64,5 +69,9 @@ footer a {
     }
     section img {
       width: 100%;
+    }
+
+    ul {
+      padding-left: 0;
     }
 }
