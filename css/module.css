@@ -8,6 +8,8 @@
 .menu-icon{
   fill: #435c6e;
   vertical-align: middle;
+  width: 20px;
+  height: 20px;
 }
 
 .sitenav-button img{
@@ -25,19 +27,18 @@
 /** For topnav items **/
 .sitenav{
   display: inline-block;
-  padding-left: 15px;
-  height: 60px;
-  padding-top: 20%;
+  padding-right: 1.3em;
+  height: 1em;
+  padding-top: 10%;
 }
 /** For dropdown sitenav bar **/
 .sitenav-list{
-  width: 300px;
+  width: 100%;
   position: absolute;
-  top: 45px;
-  right: 0;
+  top: 0;
   background: rgba(67, 92, 110, 0.9); /* hex#435c6e with 0.9 opacity*/
   display: none;
-  padding: 20px;
+  padding: 1em;
 }
 
 .sitenav-list::before{
@@ -199,6 +200,12 @@
   .span_1_of_3 {
     width: 100%;
   }
+
+  .menu-icon{
+    fill: #435c6e;
+    vertical-align: middle;
+    height: 1em;
+  }
 }
 
 @media all and (min-width: 601px) {
@@ -225,8 +232,17 @@
 
 @media all and (min-width: 801px) {
 
+  .sitenav-list {
+  width: 300px;
+  position: absolute;
+  top: 3.52em;
+  background: rgba(67, 92, 110, 0.9); /* hex#435c6e with 0.9 opacity*/
+  display: none;
+  padding: 20px;
+  }
   .flex-container {
     justify-content: space-around;
+    align
   }
   .flex-width4-5-6 {
     width: 33.33%;
