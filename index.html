@@ -18,6 +18,7 @@
     <link rel="stylesheet" type="text/css" href="css/state.css">
     <link rel="stylesheet" type="text/css" href="css/color.css">
     <link rel="stylesheet" type="text/css" href="css/dropnav.css">
+
   </head>
   <body class="flex-container">
     <header class="flex-header">
@@ -34,66 +35,17 @@
               </svg>
             </form>
             <div class="account">
-              <a class="hireme" href="http://maxbrockman453.github.io/">Hire me!</a>
-              <nav>
-                <ul>
-                  <li class="sitenav-button sitenav">
-                    <a role="button" href="#">
-                      <svg class="menu-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 32 32">
-                        <g>
-                          <path d="M2 6h28v6h-28zM2 14h28v6h-28zM2 22h28v6h-28z" />
-                        </g>
-                      </svg>
-                      <!-- <img src="resources/menu.svg" alt="show drop down menu"> -->
-                    </a>
-                    <menu class="sitenav-list" type="list" lable="dropdown-sitenav">
-                      <li class="sitenav-listitem">
-                        <a href="blog.html">
-                          Report Vandalism
-                        </a>
-                      </li>
-                      <li class="sitenav-listitem">
-                        <a href="#">
-                          Emergency Chat
-                        </a>
-                      </li>
-                      <li class="sitenav-listitem">
-                        <a href="#">
-                          Related Services
-                        </a>
-                      </li>
-                      <li class="sitenav-listitem">
-                        <a href="#">
-                          Related Products
-                        </a>
-                      </li>
-                      <li class="sitenav-listitem">
-                        <a href="#">
-                          About Cover
-                        </a>
-                      </li>
-                      <li class="sitenav-listitem">
-                        <a href="#">
-                          Company Information
-                        </a>
-                      </li>
-                      <li class="sitenav-listitem">
-                        <form class="searchbox" action="">
-                          <input class="search" type="text" placeholder="Search">
-                          <svg  class="submit" type="submit" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px"  enable-background="new 0 0 19.28 19.28" xml:space="preserve">
-                          <g>
-                            <circle opacity="0.75" fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-miterlimit="10" cx="7" cy="7" r="6.3"/>
-
-                              <line opacity="0.75" fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-miterlimit="10" x1="13.3" y1="13.3" x2="18.8" y2="18.8"/>
-                          </g>
-                          </svg>
-                        </form>
-                      </li>
-                    </menu>
-                  </li>
-                </ul>
-              </nav>
-            </div>
+              <a class="hireme" href="http://maxbrockman453.github.io/">Hire me |</a>
+              <ul class="dropdown">
+                <li>
+                  <a href="#">|Menu</a>
+                  <ul class="sub_menu" style="visibility: hidden;">
+                    <li>
+                      <a href="http://maxbrockman453.github.io/blog.html">Blog</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
           </nav>
       </header>
     <div class="flex-item-2 flex-width2-3">
@@ -178,5 +130,8 @@
     <footer>
       Copyright Max Brockman @2014
     </footer>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+  <script type="text/javascript" language="javascript" src="/Users/MaxBrockman/code/maxbrockman453.github.io/js/jquery.dropdownPlain.js"></script>
   </body>
 </html>
