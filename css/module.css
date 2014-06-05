@@ -1,8 +1,22 @@
 /** CSS for header **/
 
-.socialnav {
+.flex-header {
   display: -webkit-flex;
   display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  height: auto;
+}
+
+.flex-header h1 {
+  padding-left: 1em;
+}
+
+.submit {
+width: 1.1em;
+height: 1.1em;
+margin-bottom: .3em;
+vertical-align: bottom;
 }
 
 .menu-icon{
@@ -25,12 +39,12 @@
 }
 
 /** For topnav items **/
-.sitenav{
+/*.sitenav{
   display: inline-block;
   padding-right: 1.3em;
   height: 1em;
   padding-top: 10%;
-}
+}*/
 /** For dropdown sitenav bar **/
 .sitenav-list{
   width: 100%;
@@ -75,6 +89,10 @@
 .sitenav-listitem:hover a{
   color: #435c6e;
 }
+
+
+
+
 
 /*----------------------------------------Flex Container Layout--------------------------------------------*/
 
@@ -228,6 +246,19 @@
   }
 
 }
+
+@media all and (max-width: 700px) {
+  .account>a {
+    display: none;
+  }
+  .searchbox {
+    display: none;
+  }
+  .flex-header {
+    flex-flow: row nowrap;
+  }
+}
+
 
 
 @media all and (min-width: 801px) {
