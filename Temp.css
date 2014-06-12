@@ -113,4 +113,10 @@ a:hover {
   .about {
     flex-flow: column wrap;
   }
+
+  article {
+    width: 100%;
+    padding: 0 1em;
+  }
 }
+
