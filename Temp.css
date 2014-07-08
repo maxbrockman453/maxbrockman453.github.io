@@ -55,7 +55,13 @@ p {
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
+  align-items: center;
   margin: 0 auto;
+}
+
+.max_logo {
+  height: 15em;
+  width: 15em;
 }
 
 
